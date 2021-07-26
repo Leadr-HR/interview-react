@@ -3,9 +3,10 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const faker = require("faker");
 const uuid = require("uuid");
+const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 const numMeetings = 250;
 
@@ -57,6 +58,7 @@ for (let i = 0; i < numMeetings; i++) {
   };
 }
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
