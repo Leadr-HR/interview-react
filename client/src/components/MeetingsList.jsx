@@ -3,7 +3,7 @@ import React from "react";
 /*
 APIs to get Meetings:
 
-GET https://lisjk.sse.codesandbox.io/api/meetings
+GET http://localhost:5000/api/meetings/
 Returns a list of meetings that look like this:
 {
     id:String(unique),
@@ -20,7 +20,7 @@ Note that this is aggregated information, not the entire item!
 
 
 If you want the entire item, you need to make a detail call:
-GET https://lisjk.sse.codesandbox.io/api/meetings/:meetingId
+GET http://localhost:5000/api/meetings/:meetingId
 Returns full details of a specific meeting by id
 {
     title:String

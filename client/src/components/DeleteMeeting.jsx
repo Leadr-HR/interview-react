@@ -3,7 +3,7 @@ import React from "react";
 /*
 APIs to delete Meetings:
 
-DELETE https://lisjk.sse.codesandbox.io/api/meetings/:meetingId
+DELETE http://localhost:5000/api/meetings/:meetingId
 
 Nukes that useless meeting out of existance! Always returns a 200, even if the item doesnt exist.
 */

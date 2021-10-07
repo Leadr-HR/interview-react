@@ -4,9 +4,11 @@
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-query": "^3.9.8",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -15,5 +17,10 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:5000/",
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

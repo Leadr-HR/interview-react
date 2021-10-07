@@ -3,7 +3,7 @@ import React from "react";
 /*
 APIs to create Meetings:
 
-POST https://lisjk.sse.codesandbox.io/api/:meetings
+POST http://localhost:5000/api/meetings/:meetingId
 Accepts a meeting of the following form:
 {
     id:String(unique),

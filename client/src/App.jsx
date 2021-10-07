@@ -8,8 +8,8 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Welcome} />
         <Route path="/meetings" component={Meetings} />
+        <Route path="/" component={Welcome} />
       </Switch>
     </Router>
   );

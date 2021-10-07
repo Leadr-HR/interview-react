@@ -24,7 +24,7 @@ or you can just check server.js
 const Meetings = () => {
   return (
     <div>
-      {/* TODO: Meetings List */}
+      <MeetingsList />
       {/* TODO: Create Meeting */}
       {/* TODO: Update Meeting */}
       {/* TODO: Delete Meeting */}

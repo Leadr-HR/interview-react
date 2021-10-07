@@ -16,15 +16,12 @@ const Home = () => {
 
       <p>Then Click Here</p>
       <img alt="helping :)" src="./helpinoutmore.png" width={600} /> */}
-
-      <p>Your task, should you choose to accept it (You should)</p>
       <ul>
         <li>
           You are writing a simple CRUD application that will be hitting a
           meetings API. If you want to see the implementation details, check
-          server.js.
+          server.js in the server folder.
         </li>
-        <img alt="helping :)" src="./directions1.png" width={150} />
         <br />
         <br />
         <li>

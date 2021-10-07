@@ -3,7 +3,7 @@ import React from "react";
 /*
 APIs to update Meetings:
 
-PATCH https://lisjk.sse.codesandbox.io/api/meetings/:meetingId
+PATCH http://localhost:5000/api/meetings/:meetingId
 
 Updates the specified meeting and returns the updated meeting
 {
