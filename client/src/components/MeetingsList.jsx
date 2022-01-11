@@ -17,8 +17,6 @@ Returns a list of meetings that look like this:
 }
 Note that this is aggregated information, not the entire item!
 
-
-
 If you want the entire item, you need to make a detail call:
 GET http://localhost:5000/api/meetings/:meetingId
 Returns full details of a specific meeting by id
@@ -38,6 +36,15 @@ Returns full details of a specific meeting by id
 */
 
 const MeetingsList = () => {
+  /**
+   * Get List of Meetings
+   * 
+   * You must set up the api call using the methods in fetch.js
+   * fetch.js can be found in ../utils/fetch.js
+   * API documentation can be found in the comment above to give you an idea of expected structure.
+   * Once you have the response from the API, time to display your meetings!
+   */
+
   return <div>List your meetings here somehow!</div>;
 };
 
