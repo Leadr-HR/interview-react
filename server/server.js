@@ -66,7 +66,7 @@ app.get("/api/meetings", (req, res) => {
   const offset = req.query.offset || 0;
   const next = req.query.next || 50;
 
-  const resultSet = meetings.ids.slice(offset, next);
+  const resultSet = meetings.ids.slice(offset, offset + next);
 
   res.send({
     meetings: resultSet.map((id) => {
@@ -79,7 +79,10 @@ app.get("/api/meetings", (req, res) => {
         duration,
         attendees
       };
-    })
+    }),
+    offset,
+    next,
+    total: meetings.ids.length,
   });
 });
 
