@@ -128,7 +128,9 @@ app.delete("/api/meetings/:meetingId", (req, res) => {
     }
   }
 
-  res.status(200).send();
+  res
+  .status(meetings.data[meetingId] ? 200 : 404)
+  .send();
 });
 
 // Serve any static files
